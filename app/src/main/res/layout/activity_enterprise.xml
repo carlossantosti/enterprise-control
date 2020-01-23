@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:scrollbars="vertical"
+        tools:context=".EnterpriseActivity">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/enterprise_record"
+            android:textColor="@color/colorGreen"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nome_fantasia_crud_enterprise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fancy_name"
+            android:maxLength="30" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/razao_social_crud_enterprise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/corporate_name"
+            android:maxLength="50" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cnpj_crud_enterprise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cnpj"
+            android:inputType="number"
+            android:maxLength="18" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ie_crud_enterprise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/state_registration"
+            android:inputType="number"
+            android:maxLength="18" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cep_crud_enterprise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cep"
+            android:inputType="number"
+            android:maxLength="10" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/endereco_crud_enterprise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/address"
+            android:maxLength="50" />
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/bairro_crud_enterprise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/neighborhood"
+            android:maxLength="50" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cidade_crud_enterprise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/city"
+            android:maxLength="50" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pais_crud_enterprise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/pais"
+            android:maxLength="50" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/telefone_crud_enterprise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/telephone"
+            android:inputType="number"
+            android:maxLength="15" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fax_crud_enterprise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fax"
+            android:inputType="numberSigned"
+            android:maxLength="15" />
+
+    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+</ScrollView>

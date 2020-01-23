@@ -1,4 +1,4 @@
-package br.com.trovata.enterprise;
+package br.com.carlosti.enterprise;
 
 import org.junit.Test;
 

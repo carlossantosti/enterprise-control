@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_add_product"
+        android:icon="@drawable/add_circle_24"
+        android:title="@string/add"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_edit_product"
+        android:icon="@drawable/edit_24"
+        android:title="@string/edit"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_delete_product"
+        android:icon="@drawable/delete_forever_24"
+        android:title="@string/delete"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_list_enterprise"
+        android:icon="@drawable/business_24"
+        android:title="@string/list_enterprises"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_change_enterprise_products"
+        android:icon="@drawable/swap_vertical_circle_24"
+        android:title="@string/change_enterprise"
+        app:showAsAction="ifRoom"/>
+
+</menu>
